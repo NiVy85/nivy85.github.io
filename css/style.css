@@ -1,0 +1,146 @@
+#desktop {
+    background-image: url('../image/wallpaper.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#chat {
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    width: 60px;
+    height: 60px;
+}
+
+#chat:focus {
+    background-color: #337;
+}
+
+#memory {
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    }
+
+#memory:focus {
+    background-color: #337;
+}
+
+#ddd {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    width: 60px;
+    height: 60px;
+    }
+
+#ddd:focus {
+    background-color: #337;
+}
+
+#close {
+    width: 13px;
+    height: 15px;
+    margin-top: -20px;
+    margin-right: 4px;
+    background-color: #888;
+    border: 2px outset #666;
+    float: right;
+}
+
+.cWin {
+    position: absolute;
+    z-index: 3;
+    padding-top: 25px;
+	background-color: #555;
+    border: 3px outset #999;
+}
+
+.cWin:focus {
+    z-index: 5;
+    border-top-color: #fff;
+    outline: none;
+}
+
+.innDiv {
+    position: relative;
+    z-index: 7;
+    background-color: rgb(0, 0, 0);
+    width: 600;
+    height: 500;
+    padding: 20px;
+    margin: 0px auto;
+}
+
+.innDiv > div {
+    background-color: rgb(32, 32, 145);
+    border: #666 1px solid;
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.innDiv img {
+    max-width: 70px;
+    max-height: 70px;
+    visibility: hidden;
+}
+
+#chatwin {
+    width: 500px;
+    height: 400px;
+}
+
+#chatobj {
+    width: 100%;
+    height: 100%;
+}
+
+#paintobj {
+    width: 100%;
+    height: 100%;
+}
+
+#chatdiv {
+    width: 100%;
+    height: 100%;
+}
+
+input[type=text]{
+    display: inline-block;
+    margin: auto;
+}
+
+input[type=button] {
+    display: inline-block;
+}
+
+#msg_log {
+    display: block;
+    margin: auto;
+    font-size: 14px;
+    line-height: 50%;
+    overflow: scroll;
+    width: 400px;
+    height: 250px;
+    background-color: #fff;
+    text-decoration-color: #000;
+    word-wrap: break-word;
+    border: 2px solid #539;
+}
+
+#paintDiv {
+    background-color: #fff;
+    height: 400px;
+}
+
+#painstruction {
+    color: #fff;
+}
